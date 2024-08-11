@@ -1,6 +1,7 @@
+package Consumer;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * Representa uma operação que aceita um argumento do tipo T e não retorna nenhum resultado.
