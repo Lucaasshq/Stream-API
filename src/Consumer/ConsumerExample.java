@@ -15,11 +15,9 @@ public class ConsumerExample {
 
         List<Integer> numeros = Arrays.asList(1,2,3,4,5);
 
-        numeros.forEach(n -> {
-                if (n % 2 == 0) {
-                    System.out.println(n);
+        numeros.stream()
+                .filter(n -> n % 2 == 0)
+                .forEach(n -> System.out.println(n));
                 }
             }
-        );
-    }
-}
+
