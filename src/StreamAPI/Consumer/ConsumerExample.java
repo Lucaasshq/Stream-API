@@ -1,4 +1,4 @@
-package Consumer;
+package StreamAPI.Consumer;
 
 import java.util.Arrays;
 import java.util.List;
